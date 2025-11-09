@@ -1,0 +1,31 @@
+# --- Core LiveKit runtime ---
+livekit-agents>=1.2.18
+livekit-plugins-openai>=0.7.0
+livekit-plugins-google>=0.5.0
+livekit-plugins-silero>=0.5.0
+livekit-plugins-noise-cancellation>=0.5.0
+
+# --- Memory + Assistant infrastructure ---
+mem0ai>=0.2.3
+duckduckgo-search>=5.3.0
+langchain_community>=0.2.11
+requests>=2.31.0
+python-dotenv>=1.0.1
+pydantic-ai-slim[openai,mcp]>=0.4.0
+
+# --- Computer vision + math ---
+opencv-python>=4.9.0.80
+numpy>=1.26.0
+scipy>=1.13.0
+dlib>=19.24.4          # Required for facial landmark detection
+imutils>=0.5.4         # Optional, but simplifies landmark coordinate handling
+
+# --- Audio + Speech ---
+playsound==1.2.2       # Alarm sound playback
+pyaudio>=0.2.14        # Optional: improves local mic input (Windows/Linux)
+
+# --- Logging / Utilities ---
+colorlog>=6.8.2
+fastapi>=0.104.0
+uvicorn>=0.24.0
+websockets>=12.0

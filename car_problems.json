@@ -1,0 +1,933 @@
+{
+  "emergencies": [
+    {
+      "problem_id": "C-001",
+      "problem_name": "Engine Overheating",
+      "category": "Critical",
+      "keywords": ["overheating", "steam", "hot", "temperature", "red zone", "sweet smell"],
+      "symptoms": [
+        "Temperature gauge is in the 'H' or red zone.",
+        "Steam (often white and sweet-smelling) is coming from under the hood.",
+        "Engine performance is poor or has warning lights."
+      ],
+      "quick_solution": "Pull over immediately and turn off the engine. Do NOT open the radiator cap.",
+      "detailed_steps": [
+        "Turn on your hazard lights and pull over to a safe location.",
+        "Turn off the engine immediately.",
+        "DO NOT open the hood until the engine has cooled for at least 30-45 minutes.",
+        "CRITICAL: Never open the radiator cap when the engine is hot. It is under high pressure and can cause severe burns.",
+        "Once cool, you can check the coolant level in the plastic 'coolant overflow' reservoir.",
+        "Call for roadside assistance. Driving further can destroy the engine."
+      ],
+      "safety_warning": "STOP DRIVING IMMEDIATELY. Risk of catastrophic engine damage and severe burns from hot steam/coolant."
+    },
+    {
+      "problem_id": "C-002",
+      "problem_name": "Dead Battery",
+      "category": "Common",
+      "keywords": ["won't start", "clicking", "dead", "no power", "dim lights"],
+      "symptoms": [
+        "You turn the key, and the engine makes a rapid 'clicking' sound.",
+        "You turn the key, and nothing happens (no lights, no sounds).",
+        "The interior lights and headlights are very dim or won't turn on."
+      ],
+      "quick_solution": "The battery needs to be jump-started or recharged.",
+      "detailed_steps": [
+        "Find a running car for a jump start or use a portable battery booster.",
+        "Connect the jumper cables in the correct order:",
+        "1. Red cable to the POSITIVE (+) terminal of the DEAD battery.",
+        "2. Red cable to the POSITIVE (+) terminal of the GOOD battery.",
+        "3. Black cable to the NEGATIVE (-) terminal of the GOOD battery.",
+        "4. Black cable to an UNPAINTED METAL SURFACE on the DEAD car (away from the battery).",
+        "Start the good car and let it run for 2-3 minutes.",
+        "Try to start the dead car. If it starts, let it run for at least 15-20 minutes before driving.",
+        "Remove the cables in the reverse order."
+      ],
+      "safety_warning": "Incorrectly connecting jumper cables can cause sparks, battery damage, or explosion. Wear safety glasses if possible."
+    },
+    {
+      "problem_id": "C-003",
+      "problem_name": "Flat Tire",
+      "category": "Common",
+      "keywords": ["flat", "blowout", "wobbly", "pulling", "flapping sound"],
+      "symptoms": [
+        "A loud 'flapping' or 'thumping' noise while driving.",
+        "The car pulls strongly to one side.",
+        "The steering feels 'wobbly' or strange.",
+        "The Tire Pressure Monitoring System (TPMS) light is on."
+      ],
+      "quick_solution": "Pull over to a safe, level location and replace the flat tire with your spare.",
+      "detailed_steps": [
+        "Slow down gradually. Do not slam the brakes.",
+        "Pull over to a flat, level, and safe location away from traffic.",
+        "Turn on your hazard lights.",
+        "Find your spare tire, jack, and lug wrench (usually in the trunk).",
+        "Before jacking up the car, 'break' the lug nuts (loosen them slightly with the wrench).",
+        "Use the jack at the designated jack point (check your owner's manual).",
+        "Raise the car until the flat tire is off the ground.",
+        "Remove the lug nuts and the flat tire.",
+        "Mount the spare tire and hand-tighten the lug nuts.",
+        "Lower the car until the tire touches the ground, then tighten the lug nuts in a 'star' pattern.",
+        "Lower the car fully and give the lug nuts one final check for tightness.",
+        "Drive slowly (spares are usually limited to 50 mph / 80 kph) to a tire shop."
+      ],
+      "safety_warning": "Never change a tire on an unlevel surface or close to traffic. If you are on a busy highway, it is safer to call for roadside assistance."
+    },
+    {
+      "problem_id": "C-004",
+      "problem_name": "Brake Failure",
+      "category": "Critical",
+      "keywords": ["brakes", "no brakes", "pedal to floor", "won't stop"],
+      "symptoms": [
+        "The brake pedal goes all the way to the floor with no resistance.",
+        "The car is not slowing down when you press the brake pedal."
+      ],
+      "quick_solution": "Pump the brake pedal, downshift, and slowly apply the parking brake. Steer to safety.",
+      "detailed_steps": [
+        "1. Pump the brake pedal rapidly. This may build up enough pressure to work.",
+        "2. Downshift to a lower gear (L, 2, or 1 in an automatic) to use 'engine braking' to slow the car.",
+        "3. Slowly and steadily apply the parking brake (hand brake or e-brake). Be ready to release it if the wheels lock and you start to skid.",
+        "4. Honk your horn and flash your lights to warn other drivers.",
+        "5. Steer the car to a safe location, using a curb or guardrail to rub against as a last resort.",
+        "Do not drive the car again. Call for a tow."
+      ],
+      "safety_warning": "This is one of the most dangerous emergencies. Act calmly and deliberately. Your priority is to get the car to a stop, even if it means damaging the car."
+    },
+    {
+        "problem_id": "C-005",
+        "problem_name": "Oil Pressure Warning Light",
+        "category": "Critical",
+        "keywords": ["oil light", "red oil can", "low oil", "genie lamp", "no oil"],
+        "symptoms": [
+        "A red warning light shaped like an oil can or 'OIL' illuminates while driving."
+        ],
+        "quick_solution": "Pull over and SHUT OFF THE ENGINE IMMEDIATELY.",
+        "detailed_steps": [
+        "Pull over to a safe location *immediately*.",
+        "Turn off the engine. Do not restart it.",
+        "This light means the engine has lost oil pressure, and continuing to run it—even for 30 seconds—can destroy it.",
+        "Wait a few minutes for the engine to cool, then check the oil dipstick.",
+        "If the oil level is very low, you have a severe leak.",
+        "If the oil level is full, the oil pump or sensor has likely failed.",
+        "In either case, the car is unsafe to drive. Call for a tow."
+        ],
+        "safety_warning": "STOP DRIVING IMMEDIATELY. This is not a 'low oil' light; it is a 'no oil pressure' light. Catastrophic engine failure is imminent."
+    },
+    {
+        "problem_id": "C-006",
+        "problem_name": "Battery/Charging Light (While Driving)",
+        "category": "High Priority",
+        "keywords": ["battery light", "red battery", "alternator", "charging", "died while driving"],
+        "symptoms": [
+        "A red warning light shaped like a battery illuminates *while you are driving*.",
+        "Headlights may start to dim, and electrics (like the radio) may fail."
+        ],
+        "quick_solution": "Your alternator is failing. You have 10-20 minutes of battery power. Turn off all accessories and drive to a mechanic.",
+        "detailed_steps": [
+        "This light means your car's charging system (alternator) has failed.",
+        "You are now running purely on battery power, and the car will die soon.",
+        "Turn off ALL non-essential accessories: radio, A/C, heater, heated seats.",
+        "Do NOT turn off the car, as it may not restart.",
+        "Drive immediately to the nearest auto shop or a safe location.",
+        "If at night, you must keep headlights on, so your time is even more limited."
+        ],
+        "safety_warning": "The car will shut down completely once the battery is drained, potentially in a dangerous location (like a highway). Act quickly."
+    },
+    {
+        "problem_id": "C-007",
+        "problem_name": "Check Engine Light (Flashing)",
+        "category": "Critical",
+        "keywords": ["check engine", "flashing", "blinking", "misfire", "shaking", "sputtering"],
+        "symptoms": [
+        "The 'check engine' or 'service engine' light is *blinking* or *flashing*.",
+        "The car may be shaking, shuddering, or losing power."
+        ],
+        "quick_solution": "Pull over and stop driving. A flashing light signals a severe engine misfire that can destroy your catalytic converter.",
+        "detailed_steps": [
+        "Find a safe place to pull over.",
+        "Turn off the engine.",
+        "A flashing light indicates a severe engine misfire. This means unburnt fuel is being dumped into the exhaust system.",
+        "This unburnt fuel can overheat and *melt* your catalytic converter, a repair that can cost thousands of dollars.",
+        "The car is not safe to drive. Call for a tow."
+        ],
+        "safety_warning": "STOP DRIVING. A solid check engine light is an advisory; a flashing one is a critical, costly emergency."
+    },
+    {
+        "problem_id": "C-008",
+        "problem_name": "Check Engine Light (Solid)",
+        "category": "Advisory",
+        "keywords": ["check engine", "solid", "service engine", "yellow light"],
+        "symptoms": [
+        "The 'check engine' or 'service engine' light is on and *not* flashing."
+        ],
+        "quick_solution": "There is an emissions or engine sensor issue. The car is generally safe to drive, but you should get it checked soon.",
+        "detailed_steps": [
+        "First, check your gas cap. A loose or faulty gas cap is the most common cause.",
+        "Tighten the gas cap until it clicks. The light may take a day or two of driving to turn off.",
+        "If the light remains on, the car has a sensor or component fault.",
+        "The car is safe to drive in the short term, but you should get it scanned by a mechanic or at an auto parts store to find the 'DTC' code (Diagnostic Trouble Code).",
+        "Ignoring it can lead to worse fuel economy or damage to other components over time."
+        ],
+        "safety_warning": "If the solid light is accompanied by any shaking or strange noises, treat it as a critical emergency (see C-007)."
+    },
+    {
+        "problem_id": "C-009",
+        "problem_name": "Brake Warning Light (Red 'BRAKE' or '(!)')",
+        "category": "Critical",
+        "keywords": ["brake light", "red brake", "low fluid", "parking brake"],
+        "symptoms": [
+        "A red warning light that says 'BRAKE' or shows a circle with an '!' in the middle is on."
+        ],
+        "quick_solution": "First, check if your parking brake is on. If it's off, you have a serious brake system problem. Stop the car.",
+        "detailed_steps": [
+        "1. Pull over safely.",
+        "2. Check if your parking brake (hand brake or e-brake) is fully disengaged.",
+        "3. If the parking brake is off and the light is still on, you may have a loss of hydraulic pressure or critically low brake fluid.",
+        "4. Carefully test your brake pedal. If it feels 'spongy' or goes to the floor, DO NOT drive the car.",
+        "5. Check your brake fluid reservoir. If it's low, you may have a leak. Topping it off is a *very* temporary fix to get to a mechanic, but it's safer to call for a tow."
+        ],
+        "safety_warning": "A fault in your primary braking system is a major safety risk. Do not drive a car with a 'spongy' brake pedal or a brake light you can't diagnose."
+    },
+    {
+        "problem_id": "C-010",
+        "problem_name": "Stuck Accelerator",
+        "category": "Critical",
+        "keywords": ["accelerator", "gas pedal", "stuck", "won't stop", "unintended acceleration"],
+        "symptoms": [
+        "The car continues to accelerate even after you take your foot off the gas pedal.",
+        "The engine is roaring, and the car is gaining speed."
+        ],
+        "quick_solution": "IMMEDIATELY shift the car into NEUTRAL (N) and apply the brakes.",
+        "detailed_steps": [
+        "1. **STAY CALM.** Do not panic.",
+        "2. **Shift to NEUTRAL (N).** This is the most important step. It disconnects the engine from the wheels. The engine will roar loudly, but the car will stop accelerating.",
+        "3. **Apply the Brakes.** Press the brake pedal firmly and consistently to slow the car down. Do not pump the brakes.",
+        "4. **Steer to Safety.** As the car slows, steer to a safe location on the side of the road.",
+        "5. **Turn off the Ignition.** Once you are stopped, shut off the engine. Do not turn off the engine *while* you are still moving, as this will lock the steering wheel and turn off your power brakes.",
+        "6. Check for an obstruction (e.g., a floor mat) on the pedal."
+        ],
+        "safety_warning": "Your first instinct may be to turn off the car. DO NOT do this until you are stopped. Shifting to Neutral is the correct and safest action."
+    },
+    {
+        "problem_id": "C-011",
+        "problem_name": "Grinding Brakes",
+        "category": "High Priority",
+        "keywords": ["grinding", "metal on metal", "brakes", "scraping", "squealing", "screeching"],
+        "symptoms": [
+        "A loud metallic scraping or grinding noise when you press the brake pedal.",
+        "May have been preceded by a high-pitched 'squealing' for several weeks."
+        ],
+        "quick_solution": "Your brake pads are completely worn out. Stop driving as soon as possible and schedule a repair.",
+        "detailed_steps": [
+        "The high-pitched 'squeal' is the 'wear indicator' telling you to change your pads.",
+        "The loud *grinding* noise means you have worn past the indicator and are now grinding metal-on-metal (brake pad backing plate against the brake rotor).",
+        "This is severely damaging your brake rotors and dramatically reduces your stopping power.",
+        "The car is unsafe. Drive *cautiously* and *slowly* *directly* to a mechanic. Avoid highway speeds and keep a long following distance."
+        ],
+        "safety_warning": "Your ability to stop is compromised. This is a serious safety hazard. Do not ignore it."
+    },
+    {
+        "problem_id": "C-012",
+        "problem_name": "Squealing from Engine (Serpentine Belt)",
+        "category": "Advisory",
+        "keywords": ["squeal", "squealing", "screeching", "engine noise", "belt"],
+        "symptoms": [
+        "A loud, high-pitched squealing sound from the engine bay.",
+        "Often worse on a cold start or when turning the A/C on."
+        ],
+        "quick_solution": "Your serpentine belt (or another accessory belt) is loose or worn out.",
+        "detailed_steps": [
+        "This belt powers your alternator, water pump, and power steering.",
+        "While the noise itself isn't dangerous, it means the belt is slipping.",
+        "If the belt breaks, your car will stop running (see C-006). The engine will overheat (see C-001), and you will lose power steering.",
+        "This is a warning sign. Get the belt and the belt tensioner inspected by a mechanic soon.",
+        "A 'belt dressing' spray is a *very* temporary fix that often makes the problem worse. It is not recommended."
+        ],
+        "safety_warning": "Do not ignore this noise. It is a warning sign of an impending breakdown."
+    },
+  {
+    "problem_id": "C-013",
+    "problem_name": "Steering Wheel Shaking / Vibration",
+    "category": "Advisory",
+    "keywords": ["shaking", "vibration", "wobble", "steering wheel", "highway speed", "shimmies"],
+    "symptoms": [
+      "The steering wheel shakes or vibrates, often only at specific speeds (e.g., 55-65 mph / 90-110 kph).",
+      "The whole car feels like it's wobbling at speed."
+    ],
+    "quick_solution": "Your tires are likely out of balance. It's not an immediate emergency, but you should get them balanced to prevent wear.",
+    "detailed_steps": [
+      "1. This is not an immediate failure. The most likely cause is a 'tire/wheel imbalance,' meaning one wheel is slightly heavier on one side.",
+      "2. Other possible causes: uneven tire wear, a 'bubble' or bulge on the tire, or a bent wheel from a pothole.",
+      "3. **Action:** Pull over and visually inspect all four tires. Look for any obvious bulges, bumps, or damage on the tire's sidewall.",
+      "4. If you see a bulge, the tire is compromised. Replace it with your spare. This is a sign of internal damage.",
+      "5. If all tires look okay, the car is safe to drive to a mechanic to have the 'wheel balancing' checked."
+    ],
+    "safety_warning": "If the shaking is violent, starts immediately after hitting a large pothole, or if you see a physical bulge in the tire, pull over. This could be a sign of imminent tire failure."
+  },
+  {
+    "problem_id": "C-014",
+    "problem_name": "Vehicle Pulling to One Side",
+    "category": "Advisory",
+    "keywords": ["pulling", "drifting", "alignment", "steer", "won't go straight", "fighting the wheel"],
+    "symptoms": [
+      "You must hold the steering wheel at an angle to drive straight.",
+      "When you briefly let go of the wheel on a flat road, the car consistently drifts to the left or right."
+    ],
+    "quick_solution": "First, check your tire pressure. If all tires are even, you need a 'wheel alignment.'",
+    "detailed_steps": [
+      "1. The most common and easiest fix: **Uneven Tire Pressure**. Pull over at a safe location (like a gas station).",
+      "2. Check the pressure of all four tires. Inflate them to the pressure listed on the sticker inside your driver's door jamb (not the number on the tire itself).",
+      "3. If tire pressures are correct and the car still pulls, your 'wheel alignment' (the angle of the wheels) is off. This is not an emergency, but it will cause your tires to wear out very quickly.",
+      "4. A more serious, less common cause is a 'stuck' brake caliper. This would also cause a strong 'pull' and a 'burning smell' from one wheel."
+    ],
+    "safety_warning": "If the pulling is sudden and severe, or accompanied by a burning smell, pull over. A stuck brake can overheat and become a fire hazard."
+  },
+  {
+    "problem_id": "C-015",
+    "problem_name": "Fluid Leak (Red / Pink)",
+    "category": "Advisory",
+    "keywords": ["leak", "fluid", "red", "pink", "puddle", "transmission"],
+    "symptoms": [
+      "A reddish or pink, oily fluid is dripping from the front-middle of the car.",
+      "The car may be shifting gears harshly or 'slipping' (engine revs but car doesn't accelerate)."
+    ],
+    "quick_solution": "This is likely a Transmission Fluid leak. Check the fluid level (if possible) and get it inspected soon.",
+    "detailed_steps": [
+      "1. Transmission fluid is vital for your car's automatic transmission to shift gears.",
+      "2. Check the transmission fluid dipstick (if your car has one - many new cars have a sealed system). Follow your owner's manual procedure (e.g., car must be running and warm, in 'Park').",
+      "3. If the fluid is low, it can cause the transmission to 'slip' or shift harshly.",
+      "4. This is not an immediate emergency unless it's a *large* puddle, but a transmission running low on fluid will quickly fail, which is one of the most expensive repairs on a car."
+    ],
+    "safety_warning": "Do not let the transmission run low on fluid. Get the leak diagnosed and fixed to avoid catastrophic damage."
+  },
+  {
+    "problem_id": "C-016",
+    "problem_name": "Fluid Leak (Green / Orange / Pink - Sweet Smell)",
+    "category": "High Priority",
+    "keywords": ["leak", "fluid", "green", "orange", "pink", "sweet smell", "syrupy", "coolant", "antifreeze"],
+    "symptoms": [
+      "A bright, slimy fluid (often green, orange, or pink) is dripping from the engine bay.",
+      "There is a strong, 'sweet' or 'syrupy' smell.",
+      "This may be accompanied by your engine temperature gauge rising."
+    ],
+    "quick_solution": "This is engine coolant (antifreeze). A small leak can be temporarily fixed by topping off the reservoir when cold.",
+    "detailed_steps": [
+      "1. Coolant is what keeps your engine from overheating.",
+      "2. Look for the plastic 'coolant overflow reservoir' (it will have 'MIN' and 'MAX' lines).",
+      "3. If the leak is small and the engine is COLD, you can top off the reservoir with coolant.",
+      "4. Never open the main 'Radiator Cap' when the engine is hot.",
+      "5. If the leak is large, do not drive the car as it will overheat."
+    ],
+    "safety_warning": "Do not drive a car that is actively leaking coolant, as it will lead to overheating."
+  },
+  {
+    "problem_id": "C-017",
+    "problem_name": "Smell of Burning Rubber",
+    "category": "High Priority",
+    "keywords": ["smell", "burning", "rubber", "acrid", "burning belt"],
+    "symptoms": [
+      "A strong, acrid smell of burning rubber, either from the engine bay or a wheel."
+    ],
+    "quick_solution": "Pull over. This could be a slipping belt, a hose touching the engine, or a 'stuck' brake.",
+    "detailed_steps": [
+      "1. **From Engine:** This is likely a slipping serpentine belt (see C-012) or a fluid leak (like oil) dripping onto a hot belt, causing it to slip and burn.",
+      "2. **From Outside:** Check for a plastic bag or road debris melted onto your hot exhaust pipe.",
+      "3. **From a Wheel:** Carefully check the wheels. If the smell is strongest at one wheel, and that wheel feels much hotter than the others, you have a 'stuck' or 'seized' brake caliper. This is a fire hazard. Let it cool, then drive slowly to a mechanic. It's safer to get a tow."
+    ],
+    "safety_warning": "A stuck brake caliper can overheat to the point of catching fire. If the smell is strong and localized to one wheel, do not continue a long drive."
+  },
+  {
+    "problem_id": "C-018",
+    "problem_name": "Smell of Gasoline (Fuel)",
+    "category": "Critical",
+    "keywords": ["smell", "gas", "fuel", "gasoline", "petrol"],
+    "symptoms": [
+      "A strong, raw smell of fuel, either inside or outside the car, especially when the car is running."
+    ],
+    "quick_solution": "Stop the car immediately. Turn off the engine. Do not create sparks. This is a severe fire hazard.",
+    "detailed_steps": [
+      "1. Pull over to a safe area away from traffic and turn off the engine.",
+      "2. Do not smoke, light a lighter, or do anything that could create a spark.",
+      "3. Get out of the car and look underneath for a 'drip' of clear, fast-evaporating liquid (gasoline).",
+      "4. If you see an active leak, move a safe distance away from the car and call for a tow. Do not restart the car.",
+      "5. If the smell is faint and only happens after filling up, check your gas cap (see C-008), but a raw fuel smell is too dangerous to assume this."
+    ],
+    "safety_warning": "FIRE RISK. This is one of the most dangerous smells. Do not drive a car that smells like raw fuel."
+  },
+  {
+    "problem_id": "C-019",
+    "problem_name": "One Headlight Out",
+    "category": "Electrical / Advisory",
+    "keywords": ["headlight", "light out", "one light", "bulb", "burnt out"],
+    "symptoms": [
+      "One of the main headlights is not illuminated.",
+      "High beam might work, but low beam is out (or vice versa)."
+    ],
+    "quick_solution": "The headlight bulb has burned out. It is safe to drive in the short term, but it should be replaced for safety and legal reasons.",
+    "detailed_steps": [
+      "1. This is a standard maintenance item. The bulb has simply reached the end of its life.",
+      "2. You can buy a replacement bulb at any auto parts store. Check your owner's manual for the correct bulb type (e.g., 'H11', '9005').",
+      "3. On many cars, you can replace this yourself by accessing the back of the headlight assembly (check your manual).",
+      "4. It is often recommended to replace bulbs in pairs, as the other one is likely to fail soon."
+    ],
+    "safety_warning": "Driving with one headlight reduces your visibility and makes you harder to see. It is also illegal in most places. Get it fixed promptly."
+  },
+  {
+    "problem_id": "C-020",
+    "problem_name": "Both Headlights Fail Suddenly",
+    "category": "Electrical / High Priority",
+    "keywords": ["no headlights", "both lights out", "fuse", "relay", "can't see"],
+    "symptoms": [
+      "Both headlights (low beams) fail at the same time.",
+      "High beams might still work, or all lights may be out."
+    ],
+    "quick_solution": "This is likely a blown fuse or a bad relay, not two bulbs failing at once. Pull over if at night.",
+    "detailed_steps": [
+      "1. If this happens at night, it is a critical emergency. Turn on your hazard lights (they run on a different circuit) and pull over immediately.",
+      "2. Find your fuse box (check the owner's manual, there may be one in the cabin and one in the engine bay).",
+      "3. Locate the fuse(s) for the 'Headlights' or 'Low Beams'.",
+      "4. Inspect the fuse. If the small metal wire inside is broken, it's blown.",
+      "5. **Temporary Fix:** You can often swap a non-essential fuse (like 'Radio' or 'Heated Seats') of the *exact same amperage* (e.g., '15A') to get your lights back on and get to safety."
+    ],
+    "safety_warning": "It is extremely dangerous and illegal to drive at night without headlights. Use your hazard lights to be seen while you are stopped."
+  },
+  {
+    "problem_id": "C-021",
+    "problem_name": "Windshield Wipers Fail",
+    "category": "Electrical / High Priority",
+    "keywords": ["wipers", "won't move", "stuck", "rain", "snow", "fuse"],
+    "symptoms": [
+      "Wipers stop working, possibly in the middle of the windshield.",
+      "You hear a 'whirring' sound, but the wipers don't move (this indicates a different, mechanical linkage problem)."
+    ],
+    "quick_solution": "Most likely a blown 'WIPER' fuse or a failed wiper motor.",
+    "detailed_steps": [
+      "1. If this happens in rain or snow, pull over to a safe location (like under an overpass or at a gas station) as soon as visibility drops.",
+      "2. Check the 'WIPER' fuse in your fuse box (see C-020). Replace it if blown.",
+      "3. If the fuse is good, the motor has likely failed.",
+      "4. **Temporary Fix:** Apply a rain-repellent product (like Rain-X) to the windshield. This will cause water to bead and blow off, allowing for low-speed, emergency driving."
+    ],
+    "safety_warning": "Never drive in compromising weather (rain, snow) without functional wipers. Your visibility can drop to zero in seconds."
+  },
+  {
+    "problem_id": "C-022",
+    "problem_name": "Loud Exhaust / Roaring Noise",
+    "category": "Exhaust / Advisory",
+    "keywords": ["loud", "muffler", "exhaust", "roaring", "tractor", "motorbike sound", "broken exhaust"],
+    "symptoms": [
+      "The car is suddenly very loud, sounding like a tractor or a race car.",
+      "The noise is especially loud when you accelerate."
+    ],
+    "quick_solution": "Your exhaust system has a leak, likely a hole in the muffler or a broken pipe.",
+    "detailed_steps": [
+      "1. This is generally not a mechanical emergency *for the engine*. It will run fine.",
+      "2. The problem is noise, emissions, and the risk of carbon monoxide.",
+      "3. Do not ignore it. A broken exhaust pipe can rattle and damage other components, or fall off.",
+      "4. **Crucially:** If you can smell fumes *inside* the car, treat this as a critical emergency (see C-023)."
+    ],
+    "safety_warning": "This is mostly a noise and emissions issue, but if the leak is before the muffler, it could be dangerous. Get it inspected."
+  },
+  {
+    "problem_id": "C-023",
+    "problem_name": "Exhaust Fumes in Cabin",
+    "category": "Exhaust / Critical",
+    "keywords": ["fumes", "exhaust", "smell", "inside", "cabin", "dizzy", "headache", "hissing"],
+    "symptoms": [
+      "You can smell exhaust fumes (like a running lawnmower) *inside* the car.",
+      "You may feel dizzy, nauseous, or have a headache.",
+      "May be accompanied by a 'hissing' or 'ticking' sound from the engine."
+    ],
+    "quick_solution": "You have a dangerous Carbon Monoxide (CO) leak. IMMEDIATELY open all windows and pull over.",
+    "detailed_steps": [
+      "1. **This is a life-threatening emergency.**",
+      "2. **Immediately open all car windows** to vent the cabin.",
+      "3. Turn off your heater or A/C, as the fan may be pulling the fumes into the car.",
+      "4. Pull over to a safe location, get out of the car, and breathe fresh air.",
+      "5. Call for a tow. Do not drive the car any further."
+    ],
+    "safety_warning": "Carbon Monoxide is an invisible, odorless killer. The 'exhaust smell' is your only warning. This is a 'STOP DRIVING NOW' emergency."
+  },
+  {
+    "problem_id": "C-024",
+    "problem_name": "White Smoke from Exhaust (Continuous)",
+    "category": "Exhaust / Critical",
+    "keywords": ["white smoke", "sweet smell", "exhaust", "tailpipe", "head gasket", "thick smoke"],
+    "symptoms": [
+      "Thick, 'puffy', continuous white smoke coming from the tailpipe.",
+      "The smoke may have a 'sweet' smell (like coolant).",
+      "Engine may be running rough or overheating (see C-001)."
+    ],
+    "quick_solution": "Your engine is burning coolant. This is a catastrophic failure, likely a blown head gasket. Pull over and shut off the engine.",
+    "detailed_steps": [
+      "1. **Distinguish from normal:** Thin, wispy vapor on a cold day is normal condensation and will stop when the car is warm. This is *thick, white smoke* that does not stop.",
+      "2. This means coolant is leaking into the engine's cylinders.",
+      "3. This will quickly destroy your engine and catalytic converter.",
+      "4. Pull over to a safe location and **turn off the engine immediately**.",
+      "5. Call for a tow."
+    ],
+    "safety_warning": "STOP DRIVING. This is one of the most severe symptoms of engine failure. Continuing to drive will destroy the engine."
+  },
+  {
+    "problem_id": "C-025",
+    "problem_name": "Blue/Gray Smoke from Exhaust",
+    "category": "Exhaust / Advisory",
+    "keywords": ["blue smoke", "gray smoke", "burning oil", "exhaust", "tailpipe"],
+    "symptoms": [
+      "A continuous stream of blue-ish or gray smoke from the tailpipe.",
+      "Often worse when you accelerate after idling (e.g., at a stoplight)."
+    ],
+    "quick_solution": "Your engine is burning oil due to worn internal seals. This is not an immediate emergency, but you MUST check your oil level.",
+    "detailed_steps": [
+      "1. The engine's piston rings or valve seals are worn, allowing oil to be burned.",
+      "2. This is a long-term problem that is expensive to fix.",
+      "3. **Temporary Solution:** You must **check your oil dipstick frequently** (e.g., every time you get gas).",
+      "4. Keep the oil level topped off with the correct type of oil.",
+      "5. The immediate danger is not the smoke, but running the engine out of oil (see C-005), which *will* destroy it."
+    ],
+    "safety_warning": "The car is drivable, but its oil consumption must be monitored. Running out of oil will cause catastrophic failure."
+  },
+  {
+    "problem_id": "C-026",
+    "problem_name": "Black Smoke from Exhaust",
+    "category": "Exhaust / Advisory",
+    "keywords": ["black smoke", "sooty", "running rich", "exhaust", "tailpipe", "bad gas mileage"],
+    "symptoms": [
+      "Puffs or clouds of black, sooty smoke from the tailpipe.",
+      "Often happens during hard acceleration.",
+      "You may also notice poor fuel economy (bad gas mileage)."
+    ],
+    "quick_solution": "The engine is 'running rich' (burning too much fuel). The easiest thing to check is your engine air filter.",
+    "detailed_steps": [
+      "1. This is not an emergency, but it's wasting fuel.",
+      "2. **Temporary Fix:** Locate your engine air filter. If it is visibly dirty or clogged, replacing it might solve the problem (the engine is 'choking' for air and compensating with fuel).",
+      "3. If the filter is clean, the problem is likely a bad sensor (like an oxygen sensor or mass airflow sensor) or a leaky fuel injector.",
+      "4. Ignoring this will eventually clog and destroy your catalytic converter (an expensive part)."
+    ],
+    "safety_warning": "Not an immediate danger, but it's polluting and will lead to more expensive repairs if ignored."
+  },
+  {
+    "problem_id": "C-027",
+    "problem_name": "Engine Stalls",
+    "category": "Performance / High Priority",
+    "keywords": ["stalls", "dies", "cuts out", "engine stop", "while driving", "at stoplight"],
+    "symptoms": [
+      "The engine shuts off while you are driving or while coming to a stop.",
+      "All the dashboard lights may flash on as the engine dies."
+    ],
+    "quick_solution": "You will lose power steering and power brakes. Shift to Neutral, try to restart, and steer to safety.",
+    "detailed_steps": [
+      "1. **STAY CALM.** The car will not 'die' completely at first.",
+      "2. **Critical:** You will immediately lose power steering (wheel becomes very hard to turn) and power brakes (pedal becomes very hard to push).",
+      "3. **Action:** Shift the car into **Neutral (N)**.",
+      "4. While coasting, try to restart the engine. It may start right back up.",
+      "5. Whether it restarts or not, use your momentum (and strong-arm steering) to get to the side of the road.",
+      "6. This can be caused by many things (bad alternator, bad fuel pump, bad sensor). It is unreliable and needs to be inspected."
+    ],
+    "safety_warning": "The sudden loss of power steering and brakes is the primary danger. Be prepared to use significant muscle force to steer and stop."
+  },
+  {
+    "problem_id": "C-028",
+    "problem_name": "Transmission 'Slipping'",
+    "category": "Performance / High Priority",
+    "keywords": ["slipping", "transmission", "engine revs", "no acceleration", "delay", "wont go"],
+    "symptoms": [
+      "You press the gas, the engine revs and makes noise, but the car doesn't accelerate or accelerates very slowly.",
+      "There is a 'delay' after shifting from 'Park' to 'Drive' before the car engages.",
+      "Feels like the car is 'in the wrong gear'."
+    ],
+    "quick_solution": "Your transmission is failing, likely due to low or burnt fluid. Check the transmission fluid level immediately.",
+    "detailed_steps": [
+      "1. Pull over to a safe, level spot.",
+      "2. Check your transmission fluid (if your car has a dipstick). Follow the manual's procedure—it's very specific (e.g., car must be *hot* and *running* and in 'Park' or 'Neutral').",
+      "3. If the fluid is low, topping it off with the *correct* type of fluid (e.g., 'ATF+4', 'Mercon V') may provide a temporary fix.",
+      "4. If the fluid is full but smells 'burnt' or is dark brown/black, the transmission is damaged internally.",
+      "5. Drive *gently*, with slow acceleration, directly to a mechanic. Avoid highways."
+    ],
+    "safety_warning": "A slipping transmission can fail completely at any time, leaving you stranded with no power to the wheels."
+  },
+  {
+    "problem_id": "C-029",
+    "problem_name": "Stuck in Park",
+    "category": "Performance / Advisory",
+    "keywords": ["stuck in park", "won't shift", "shifter", "brake", "shift lock"],
+    "symptoms": [
+      "The gear shifter is locked in 'Park' and will not move.",
+      "You are pressing the brake pedal, but the shifter won't budge."
+    ],
+    "quick_solution": "This is likely a failed 'brake light switch' or 'shift interlock'. Use the manual override to get the car in gear.",
+    "detailed_steps": [
+      "1. **Diagnosis:** Have someone check if your brake lights come on when you press the pedal. If they *don't*, the brake light switch is broken. The car won't let you shift because it doesn't 'know' your foot is on the brake.",
+      "2. **Temporary Fix:** Look for the 'Shift Lock Override' slot. This is a small square or slot near the shifter, often covered by a small cap.",
+      "3. Check your owner's manual for the exact location.",
+      "4. Press your car key (or a screwdriver) into this slot; this will manually release the lock and allow you to shift into 'Drive' or 'Neutral'.",
+      "5. The car is now drivable, but your brake lights may not be working."
+    ],
+    "safety_warning": "If your brake lights are not working, you are at high risk of being rear-ended. Drive directly to a mechanic."
+  },
+  {
+    "problem_id": "C-030",
+    "problem_name": "Rough Idle / Shaking at Stop",
+    "category": "Performance / Advisory",
+    "keywords": ["rough idle", "shaking", "sputtering", "at stoplight", "vibration", "misfire"],
+    "symptoms": [
+      "The car shakes, sputters, or vibrates when it is in 'Drive' but stopped (e.g., at a stoplight).",
+      "The engine RPMs may bounce up and down.",
+      "May be accompanied by a 'Check Engine Light' (C-007 or C-008)."
+    ],
+    "quick_solution": "This is a common 'tune-up' problem, likely a bad spark plug or a vacuum leak.",
+    "detailed_steps": [
+      "1. This is known as a 'misfire at idle.' One of the engine's cylinders is not firing correctly.",
+      "2. The most common cause is a worn-out spark plug or a bad ignition coil.",
+      "3. It could also be a 'vacuum leak' (a cracked rubber hose letting in unmeasured air).",
+      "4. This is not an immediate emergency, but it's bad for the engine, wastes fuel, and can damage other components over time.",
+      "5. Get a 'tune-up' or have the codes scanned by a mechanic."
+    ],
+    "safety_warning": "If the 'Check Engine Light' is *flashing*, the misfire is severe and you should stop driving (see C-007)."
+  },
+  {
+    "problem_id": "C-031",
+    "problem_name": "Squealing/Screeching Brakes",
+    "category": "Braking / Advisory",
+    "keywords": ["squealing", "screeching", "brakes", "high pitched noise", "stopping noise"],
+    "symptoms": [
+      "A loud, high-pitched metallic squeal when the brakes are applied.",
+      "The noise often goes away once the car has driven a short distance or the pads heat up."
+    ],
+    "quick_solution": "This is likely the brake pad 'wear indicator' rubbing against the rotor. Your brake pads need to be replaced soon.",
+    "detailed_steps": [
+      "1. Modern brake pads have a small metal tab designed to make this noise when the pad material is worn down to a critical level.",
+      "2. The noise is a deliberate warning. It is not an immediate emergency, but you should schedule a brake job within the next few hundred miles.",
+      "3. The noise may be constant if the pads are extremely worn.",
+      "4. **Action:** Drive cautiously, avoiding hard braking, and schedule a pad and rotor inspection immediately."
+    ],
+    "safety_warning": "If the squeal turns into a deep, heavy grinding sound (C-032), stop driving immediately."
+  },
+  {
+    "problem_id": "C-032",
+    "problem_name": "Grinding/Scraping Brakes",
+    "category": "Braking / Critical",
+    "keywords": ["grinding", "scraping", "metal on metal", "brakes", "terrible noise", "no stopping power"],
+    "symptoms": [
+      "A deep, rough, metal-on-metal grinding or scraping sound when the brakes are applied.",
+      "The brake pedal may feel lower or you may feel vibrations through the pedal.",
+      "Stopping distance is noticeably increased."
+    ],
+    "quick_solution": "The brake pads are completely worn through, and the metal backing plate is now contacting the rotor. **STOP DRIVING IMMEDIATELY.**",
+    "detailed_steps": [
+      "1. This is a catastrophic failure of the brake system. The metal-on-metal contact is rapidly destroying the brake rotors and creating extreme heat.",
+      "2. Stopping power is severely reduced and the vehicle is unsafe.",
+      "3. **Action:** Pull over to a safe area immediately. Do not drive to a mechanic.",
+      "4. Call for a tow truck to take the vehicle to a repair shop."
+    ],
+    "safety_warning": "DO NOT DRIVE. Driving with grinding brakes will cause thousands in damage and is a severe safety risk, as brakes could fail completely."
+  },
+  {
+    "problem_id": "C-033",
+    "problem_name": "Brake Pedal 'Soft' or Goes to Floor",
+    "category": "Braking / Critical",
+    "keywords": ["soft pedal", "goes to floor", "no pressure", "brake failure", "spongy brake"],
+    "symptoms": [
+      "The brake pedal feels unusually soft or 'spongy.'",
+      "You have to push the pedal much closer to the floor to slow down.",
+      "This may be accompanied by the 'Brake System' warning light (Red Circle with Exclamation Mark)."
+    ],
+    "quick_solution": "You have a major brake fluid leak or a Master Cylinder failure. This is a severe loss of braking power. **STOP DRIVING IMMEDIATELY.**",
+    "detailed_steps": [
+      "1. A soft pedal means there is air or not enough fluid in the hydraulic system.",
+      "2. **Immediate Action:** Pump the brake pedal rapidly. This may temporarily build up enough pressure to stop.",
+      "3. Shift the car into a lower gear (or 'Low' on an automatic) to use engine braking (C-027).",
+      "4. Pull over to the side of the road and turn on hazard lights.",
+      "5. Look for a puddle of fluid under the car. If one is present, do not drive. Call for a tow."
+    ],
+    "safety_warning": "CRITICAL EMERGENCY. You are one push away from complete brake failure. Do not drive."
+  },
+  {
+    "problem_id": "C-034",
+    "problem_name": "Clicking/Clunking Noise When Turning",
+    "category": "Suspension / High Priority",
+    "keywords": ["clicking", "clunking", "turning", "steering noise", "CV joint"],
+    "symptoms": [
+      "A loud, rhythmic clicking or clunking noise, especially when turning sharply (e.g., in a parking lot).",
+      "The noise is coming from the front wheels."
+    ],
+    "quick_solution": "This is almost always a bad 'Constant Velocity (CV) Joint.' It is a serious component failure that should be fixed immediately.",
+    "detailed_steps": [
+      "1. The CV joint transfers power from the transmission to the wheels. It is covered by a rubber 'boot.'",
+      "2. If the boot tears, dirt gets in and ruins the joint, causing the clicking noise.",
+      "3. **Action:** Visually inspect the axle boots near the wheel. If you see grease slung all over the inside of the wheel well, the boot is torn.",
+      "4. The wheel *could* fall off or the axle could seize up if driven too long. Drive only to a mechanic."
+    ],
+    "safety_warning": "The car is drivable, but the joint could fail, leading to loss of power and control. Do not take long trips."
+  },
+  {
+    "problem_id": "C-035",
+    "problem_name": "Squeaking/Creaking Noise Over Bumps",
+    "category": "Suspension / Advisory",
+    "keywords": ["squeaking", "creaking", "bumps", "suspension noise", "chassis noise", "rusty noise"],
+    "symptoms": [
+      "A loud, rhythmic squeak or groan when the car goes over a speed bump, pothole, or driveway.",
+      "Sounds like an old mattress or a rusty swing set."
+    ],
+    "quick_solution": "This is likely a worn-out rubber 'bushing' in the suspension (e.g., control arm or sway bar).",
+    "detailed_steps": [
+      "1. Suspension parts connect with rubber bushings that quiet noise and reduce vibration.",
+      "2. When the rubber wears out or dries up, the metal parts rub together, causing the noise.",
+      "3. This is primarily a discomfort and a warning. It is not an emergency, but worn bushings also affect alignment and tire wear (C-014).",
+      "4. **Action:** Have a mechanic inspect the suspension components to pinpoint the worn bushing for replacement."
+    ],
+    "safety_warning": "Not a critical failure, but ignoring it can lead to premature tire wear or eventual failure of the component."
+  },
+  {
+    "problem_id": "C-036",
+    "problem_name": "Loud Thumping/Banging Over Bumps",
+    "category": "Suspension / High Priority",
+    "keywords": ["thumping", "banging", "thud", "suspension noise", "rough ride"],
+    "symptoms": [
+      "A heavy, hollow thumping or banging noise from one corner of the car when hitting any bump.",
+      "The car may bounce excessively after hitting a bump."
+    ],
+    "quick_solution": "A strut or shock absorber has likely failed and is not damping the spring's motion. The car is unsafe to drive at high speed.",
+    "detailed_steps": [
+      "1. The strut/shock is responsible for absorbing energy and stopping the car from bouncing.",
+      "2. **Test:** Push down hard on the corner of the car making the noise. If it bounces more than once before settling, the shock is bad.",
+      "3. This is a severe handling and safety risk, especially when braking or cornering. The tire may not maintain contact with the road.",
+      "4. **Action:** Drive slowly and carefully to a repair shop. Have the struts/shocks and related mounts checked."
+    ],
+    "safety_warning": "Driving on bad shocks/struts severely compromises braking and handling. Avoid high speeds."
+  },
+  {
+    "problem_id": "C-037",
+    "problem_name": "A/C Blowing Warm Air",
+    "category": "Climate / Advisory",
+    "keywords": ["warm air", "hot air", "ac not cold", "no cooling", "air conditioner"],
+    "symptoms": [
+      "The air conditioning system only blows warm, ambient air.",
+      "The fan motor (blower) works fine, but the air is not cooled."
+    ],
+    "quick_solution": "The most common issue is a low 'refrigerant' (Freon) charge, likely due to a slow leak.",
+    "detailed_steps": [
+      "1. An A/C system requires refrigerant to cool the air. Low refrigerant is the most frequent cause.",
+      "2. **Action:** Check under the hood to see if the A/C 'clutch' (a pulley near the front of the engine) is spinning when the A/C is turned on. If it's *not* spinning, the system has detected dangerously low pressure and won't turn on.",
+      "3. Do not attempt to add refrigerant without proper training. The system must be diagnosed for a leak first.",
+      "4. **Action:** The car is safe to drive, but you should have the A/C system professionally inspected and recharged."
+    ],
+    "safety_warning": "This is purely a comfort issue and does not affect the drivability or safety of the vehicle."
+  },
+  {
+    "problem_id": "C-038",
+    "problem_name": "Squealing Noise from Engine (Only when A/C is On)",
+    "category": "Climate / Advisory",
+    "keywords": ["squealing", "ac noise", "ac belt", "compressor noise", "loud when on"],
+    "symptoms": [
+      "A loud, high-pitched squealing noise that *only* occurs when the Air Conditioning is turned on.",
+      "The noise stops when the A/C button is pressed to turn it off."
+    ],
+    "quick_solution": "The belt driving the A/C compressor is loose or worn out and is slipping under the load of the compressor.",
+    "detailed_steps": [
+      "1. The A/C compressor requires a lot of power and puts a heavy load on the serpentine belt.",
+      "2. If the belt is old, cracked, or simply too loose, it will squeal as it slips.",
+      "3. **Action:** Turn off the A/C to stop the noise and prevent further belt damage.",
+      "4. Drive to a mechanic to have the belt tightened or replaced."
+    ],
+    "safety_warning": "A slipping belt can eventually break, which could also knock out your power steering and alternator (C-011 / C-012)."
+  },
+  {
+    "problem_id": "C-039",
+    "problem_name": "Heater Only Blows Cold Air",
+    "category": "Climate / High Priority",
+    "keywords": ["no heat", "cold air heater", "heater core", "blend door", "cold inside"],
+    "symptoms": [
+      "The car only blows cold air even after the engine has fully warmed up.",
+      "The temperature gauge is normal (not overheating)."
+    ],
+    "quick_solution": "This is usually caused by a low coolant level or a faulty thermostat. Check the coolant level (C-016).",
+    "detailed_steps": [
+      "1. The heater works by circulating hot engine coolant through a small radiator (heater core) in the dashboard.",
+      "2. **Action:** Check the coolant overflow reservoir. If it is low, the engine is circulating air instead of coolant to the heater core.",
+      "3. If the coolant level is full, the problem may be a stuck 'blend door' (directs airflow) or a stuck 'thermostat' (controls engine temp).",
+      "4. While not an engine emergency, it *can* be a symptom of a slow coolant leak (C-016).",
+      "5. **Action:** Get the vehicle checked for a coolant leak."
+    ],
+    "safety_warning": "In very cold climates, a non-working heater can be a safety issue due to windshield defrosting failure."
+  },
+  {
+    "problem_id": "C-040",
+    "problem_name": "Key Fob Not Working / Key Stuck in Ignition",
+    "category": "Electrical / Advisory",
+    "keywords": ["key fob not working", "key stuck", "can't turn key", "dead fob"],
+    "symptoms": [
+      "The remote lock/unlock buttons on the key fob do not work.",
+      "In an older car, the key is physically stuck in the ignition and won't turn to the 'Lock' position or release."
+    ],
+    "quick_solution": "Replace the key fob battery first. If the key is stuck, try wiggling the steering wheel or ensuring the car is securely in 'Park.'",
+    "detailed_steps": [
+      "1. **Key Fob:** The battery is likely dead. Most fobs have a small physical key hidden inside that you can use to manually unlock the door.",
+      "2. **Stuck Key:** The steering wheel lock often binds up if the wheel is turned after the engine is off. Wiggle the steering wheel firmly while gently turning the key. This releases the lock.",
+      "3. **Stuck Key:** If the car is an automatic, ensure the gear selector is fully engaged in the 'Park' position. The car will not release the key if it thinks it is in 'Drive' or 'Neutral.'"
+    ],
+    "safety_warning": "While a key fob issue is not dangerous, a stuck key can leave you stranded."
+  },
+  {
+    "problem_id": "C-041",
+    "problem_name": "Flashing Airbag/SRS Light",
+    "category": "Electrical / Critical",
+    "keywords": ["airbag light", "SRS light", "flashing light", "safety restraint"],
+    "symptoms": [
+      "The light showing a seated passenger with an airbag/circle is illuminated or flashing.",
+      "The light may come on after you adjust or move a seat."
+    ],
+    "quick_solution": "The Supplemental Restraint System (SRS) is malfunctioning, meaning the airbags may not deploy in a crash. This is a severe safety risk.",
+    "detailed_steps": [
+      "1. The SRS light indicates a fault with the airbags, seat belt pretensioners, or crash sensors.",
+      "2. The system must be checked by a mechanic with a specific scanner, as even a minor fault (like a disconnected wire under the seat) can disable the whole system.",
+      "3. **Action:** This does not affect drivability, but the vehicle is immediately less safe. Get this diagnosed immediately.",
+      "4. **Temporary Check:** Wiggle the wiring harness connectors under the front seats; this sometimes fixes a loose connection."
+    ],
+    "safety_warning": "Your airbags are disabled. This is a critical safety issue that must be addressed immediately."
+  },
+  {
+    "problem_id": "C-042",
+    "problem_name": "Fuel Gauge Malfunction (Empty/Full Incorrectly)",
+    "category": "Electrical / Advisory",
+    "keywords": ["fuel gauge wrong", "gauge stuck", "doesn't read correct fuel"],
+    "symptoms": [
+      "The fuel gauge always reads 'Empty' or 'Full,' regardless of how much gas is in the tank.",
+      "The gauge needle may be erratically jumping around."
+    ],
+    "quick_solution": "The fuel tank sending unit (sensor) has failed. You will need to track mileage to prevent running out of gas.",
+    "detailed_steps": [
+      "1. The fuel sending unit is a component inside the gas tank that measures the fuel level.",
+      "2. **Action:** Reset your trip odometer every time you fill up with fuel.",
+      "3. Base your fill-ups on your average fuel economy. For example, if you get 300 miles (480 km) per tank, fill up every 250 miles (400 km).",
+      "4. **Action:** This is not an emergency, but it is highly inconvenient. It must be fixed to be reliable."
+    ],
+    "safety_warning": "Not an immediate danger, but running out of gas can damage your fuel pump."
+  },
+  {
+    "problem_id": "C-043",
+    "problem_name": "Power Window Won't Move",
+    "category": "Electrical / Advisory",
+    "keywords": ["window stuck", "window won't go up", "window motor", "dead switch"],
+    "symptoms": [
+      "A power window will not roll up or down when the button is pressed.",
+      "You may hear a 'click' from the door panel, or no sound at all."
+    ],
+    "quick_solution": "Check the window 'lockout' button. If that's not it, the problem is a bad switch or a failed window motor.",
+    "detailed_steps": [
+      "1. If a window is stuck down, it's a security and weather issue. Try wiggling the switch vigorously while holding the button.",
+      "2. **Action:** Check if the corresponding window on the other side works. If that window *also* doesn't work, the problem is likely the main switch module on the driver's door.",
+      "3. **Temporary Fix (If Stuck Down):** You can often manually pull the glass up and tape it shut to keep the weather out.",
+      "4. A bad motor or regulator will require an interior door panel removal to fix."
+    ],
+    "safety_warning": "Not a driving risk, but a stuck-down window is an obvious security and weather concern."
+  },
+  {
+    "problem_id": "C-044",
+    "problem_name": "Constant Ticking Noise from Engine (Varies with RPM)",
+    "category": "Engine / High Priority",
+    "keywords": ["ticking", "tapping", "varies with gas", "loud ticking", "lifters"],
+    "symptoms": [
+      "A distinct, rhythmic ticking or tapping sound coming from the engine.",
+      "The speed of the ticking increases and decreases with the engine RPM (when you press the gas pedal)."
+    ],
+    "quick_solution": "This is often a 'valvetrain' issue (like a bad lifter or rocker arm). Check your oil level (C-005).",
+    "detailed_steps": [
+      "1. The valvetrain controls the engine's breathing. Ticking often means a component is not getting enough oil pressure.",
+      "2. **Immediate Action:** Check the oil level immediately. Low oil is the fastest way to cause valvetrain damage.",
+      "3. If the oil is full, the ticking is a sign of internal wear.",
+      "4. **Action:** The car is drivable for a short distance, but the engine is suffering damage. Drive directly to a mechanic."
+    ],
+    "safety_warning": "Do not ignore loud ticking. It is a sign of internal wear that quickly turns into a major engine failure."
+  },
+  {
+    "problem_id": "C-045",
+    "problem_name": "Traction Control Light Stays On (Solid)",
+    "category": "Braking / Advisory",
+    "keywords": ["Traction light on", "TCS light", "car with skid marks", "traction control disabled"],
+    "symptoms": [
+      "The light, usually showing a small car with wavy skid marks, remains solidly illuminated.",
+      "The car may be running fine otherwise."
+    ],
+    "quick_solution": "A wheel speed sensor (or ABS sensor) has failed. The Traction Control and ABS systems are disabled.",
+    "detailed_steps": [
+      "1. The car's computer uses these sensors to monitor wheel speed for ABS and Traction Control.",
+      "2. When a sensor fails, the computer shuts down the whole system because it can't trust the data.",
+      "3. **Action:** The car is safe to drive, but you have no Traction Control (TCS) or Anti-lock Brakes (ABS).",
+      "4. **Crucial:** In snow, rain, or an emergency stop, your car will behave like an older car without modern safety features. Drive cautiously."
+    ],
+    "safety_warning": "Not an emergency, but the loss of ABS/TCS is a safety risk in poor driving conditions."
+  },
+  {
+    "problem_id": "C-046",
+    "problem_name": "Car Bounces Excessively (Front or Rear)",
+    "category": "Suspension / High Priority",
+    "keywords": ["bouncing", "floaty ride", "shock absorber", "wallowing", "car dipping"],
+    "symptoms": [
+      "The car bounces repeatedly and feels 'floaty' after hitting a small bump or dip in the road.",
+      "The car 'dips' forward severely when braking."
+    ],
+    "quick_solution": "The shock absorbers or struts are completely worn out and must be replaced.",
+    "detailed_steps": [
+      "1. The car's body control is lost when the shocks fail. This leads to poor handling, increased stopping distance, and a very uncomfortable ride.",
+      "2. **Test:** Park the car and push down hard on the fender above the wheel. If the car bounces more than 1 to 1.5 times before returning to rest, the shock absorber is bad.",
+      "3. **Action:** Drive slowly, especially when braking. Schedule an inspection and replacement of the shock absorbers immediately."
+    ],
+    "safety_warning": "Severely compromises steering, braking, and overall control. Get it fixed immediately."
+  },
+  {
+    "problem_id": "C-047",
+    "problem_name": "Transmission Stuck in a Single Gear ('Limp Mode')",
+    "category": "Performance / Critical",
+    "keywords": ["stuck in gear", "won't shift", "limp home mode", "only 3rd gear", "won't go past 40 mph"],
+    "symptoms": [
+      "The car will not shift out of a specific low gear (often 2nd or 3rd) even as you accelerate.",
+      "The engine revs very high, but the car will not accelerate past a low speed (e.g., 40 mph / 65 kph).",
+      "The 'Check Engine' light may be on."
+    ],
+    "quick_solution": "The transmission control unit has detected a major fault and has entered 'Limp Mode' to protect itself. **STOP DRIVING IMMEDIATELY.**",
+    "detailed_steps": [
+      "1. 'Limp Mode' is a factory safety feature. The car locks the transmission into a high-powered, low-speed gear to let you 'limp' to safety.",
+      "2. **Action:** Pull over, turn the car off, wait 60 seconds, and restart. This sometimes clears the temporary fault and gets you one more shift.",
+      "3. If it returns to limp mode, the fault is serious (e.g., sensor failure, solenoid failure, or internal damage).",
+      "4. **Action:** Call for a tow. Continuing to drive in this mode will overheat the transmission."
+    ],
+    "safety_warning": "DO NOT continue driving for a long distance. Limp Mode is designed for a short trip to safety/repair. The transmission is at high risk of terminal failure."
+  },
+  {
+    "problem_id": "C-048",
+    "problem_name": "Headliner or Upholstery Damp/Wet",
+    "category": "Body / Advisory",
+    "keywords": ["wet headliner", "damp carpet", "leak", "water leak", "musty smell"],
+    "symptoms": [
+      "You notice a damp patch on the ceiling (headliner) or the carpet/floor of the car.",
+      "A musty or mildew smell in the cabin."
+    ],
+    "quick_solution": "You have a water leak. This is common from the sunroof drains, windshield seal, or a leaky door seal.",
+    "detailed_steps": [
+      "1. The primary issue is not the car's function, but the growth of mold and mildew, which can be a serious health hazard.",
+      "2. **Action:** The car is safe to drive, but you need to find the leak immediately. Check the corners of the sunroof channel first.",
+      "3. Park the car under cover to prevent further water ingress.",
+      "4. **Action:** Use a wet/dry vacuum to remove all water from the carpet/floor and run a fan inside the cabin to dry it out completely."
+    ],
+    "safety_warning": "Not a mechanical risk, but mold/mildew from a long-term leak is a health risk."
+  },
+  {
+    "problem_id": "C-049",
+    "problem_name": "Intermittent Electrical Failure (Random Lights/Gauges)",
+    "category": "Electrical / High Priority",
+    "keywords": ["intermittent lights", "gauges erratic", "random warnings", "computer glitch"],
+    "symptoms": [
+      "Gauges (speedometer, RPM) suddenly drop to zero or jump erratically.",
+      "Multiple unrelated warning lights (e.g., ABS, Airbag, Check Engine) flash on and off at the same time.",
+      "The car may hesitate or stall briefly when this occurs."
+    ],
+    "quick_solution": "This is likely a loose battery connection or a failing alternator. Check battery terminals first.",
+    "detailed_steps": [
+      "1. Turn off the engine and check that the battery terminals are tight and clean.",
+      "2. If the problem persists, have the alternator and battery tested.",
+      "3. This could indicate an imminent electrical system failure."
+    ],
+    "safety_warning": "Intermittent electrical failures can cause sudden loss of power steering, brakes, or engine power."
+  }
+  ]
+}
